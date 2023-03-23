@@ -1,0 +1,83 @@
+<style>
+body {width:100%;
+    height:100vh;
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    background-color:lightblue;}
+
+.container {height:100vh;
+width:100%;
+background-color:lightblue;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.container1 {height:200px;
+width:400px;
+background-color:rgba(207, 21, 21, 0.911);
+
+}
+
+.white-cross {height:200px;
+width:50px;
+position:relative;
+left:100px;
+background-color:white;
+}
+
+.white-cross1 {height:50px;
+width:400px;
+position:relative;
+top:-130px;
+left:0px;
+background-color:white;}
+ 
+.blue-cross {height:200px;
+width:25px;
+position:relative;
+left:113px;
+top:-250px;
+background-color:rgb(6, 6, 99);
+}
+
+.blue-cross1 {height:25px;
+width:400px;
+position:relative;
+left:00px;
+top:-367px;
+background-color:rgb(6, 6, 99);
+}
+
+.norge {height:50px;
+width:100%;
+background:linear-gradient(45deg,red,white,blue);
+position:relative;
+text-align: center;
+font-size: xx-large;
+font-weight:bolder;
+}
+
+
+@media (max-width:980px){
+.container1 {position:relative;
+top:10px;}}
+
+
+</style>
+
+<div class="norge">NORGE</div>
+
+<div class="container">
+    <div class="container1">
+    <div class="white-cross"></div>   
+    <div class="white-cross1"></div>
+    <div class="blue-cross"></div>
+    <div class="blue-cross1"></div>
+</div>
+
+
+</div>
+
+
